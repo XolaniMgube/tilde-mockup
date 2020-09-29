@@ -1,0 +1,19 @@
+.container{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    grid-template-columns: 20fr 1fr;
+    grid-template-areas: 
+            "heading    heading"
+            "subHead    data"
+    ;
+}
+
+.data{
+    grid-area: data;
+    color: blue;
+}
+
+h3{
+    color: red;
+}
