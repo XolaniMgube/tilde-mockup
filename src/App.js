@@ -5,7 +5,12 @@ import Interface from './components/Interface'
 function App() {
   return (
     <div className="App">
-      <Interface />
+      <Interface 
+        totalReviews="20"
+        agreements="14"
+        disagreements="6"
+        accuracy="70%"
+      />
     </div>
   );
 }
