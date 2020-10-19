@@ -19,6 +19,5 @@ function Interface(props) {
     )
 }
 
-const element =  <Interface totalReviews="30"/>
 
 export default Interface
